@@ -1,0 +1,28 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MoviesApp' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MoviesApp
+# Design
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RxGesture'
+
+  # Network
+  pod 'Alamofire'
+  pod 'RxAlamofire'
+  pod 'Kingfisher', '~> 4.7.0'
+
+  #CoreData
+  pod 'RxCoreData', '~> 0.5.1'
+  pod 'RxDataSources', '~> 3.0'
+
+  #Alert
+  pod 'SwiftMessages', '4.1.4'
+    
+  # Activity Indicator
+  pod 'MBProgressHUD'
+end
